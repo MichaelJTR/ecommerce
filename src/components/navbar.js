@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {ShoppingCart} from 'phosphor-react';
 
-export function NavBar() {
+export function Navbar() {
     return (
         <div className="navbar">
             <div className='links'>
