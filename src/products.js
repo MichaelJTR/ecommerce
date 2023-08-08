@@ -1,14 +1,14 @@
-import {AmazonFS} from './assets/amazonfirestick.png';
-import {CanonCamera} from './assets/canonrebelt7.png';
-import {ElectricToothBrush} from './assets/electrictoothbrush.png';
-import {Ipad} from './assets/ipad9.png';
-import {Iphone} from './assets/iphone13.png';
-import {Macbook} from './assets/macbookpro.png';
-import {PS5} from './assets/ps5.png';
-import {SanDisk} from './assets/sandiskportssd.png';
-import {TV} from './assets/toshibatv.png';
+import AmazonFS from './assets/amazonfirestick.png';
+import CanonCamera from './assets/canonrebelt7.png';
+import ElectricToothBrush from './assets/electrictoothbrush.png';
+import Ipad from './assets/ipad9.png';
+import Iphone from './assets/iphone13.png';
+import Macbook from './assets/macbookpro.png';
+import PS5 from './assets/ps5.png';
+import SanDisk from './assets/sandiskportssd.png';
+import TV from './assets/toshibatv.png';
 
-export const PRODUCTS = [
+const PRODUCTS = [
     {
         id: 1,
         productName: "Amazon Fire Stick",
@@ -29,13 +29,13 @@ export const PRODUCTS = [
     },
     {
         id: 4,
-        productName: "Ipad 9th Generation",
+        productName: "IPad 9th Generation",
         price: 320.00,
         productImage: Ipad   
     },
     {
         id: 5,
-        productName: "Iphone 13",
+        productName: "IPhone 13",
         price: 599.99,
         productImage: Iphone   
     },
@@ -63,4 +63,6 @@ export const PRODUCTS = [
         price: 749.99,
         productImage: TV   
     }
-]
+];
+
+export default PRODUCTS;

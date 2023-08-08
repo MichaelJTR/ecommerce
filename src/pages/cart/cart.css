@@ -1,6 +1,12 @@
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cart {
     display: flex;
-    flex: column;
+    flex: center;
     justify-content: center;
     align-items: center;
 }
